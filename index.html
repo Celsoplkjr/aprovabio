@@ -50,6 +50,7 @@
             0% { transform: translateX(0); }
             100% { transform: translateX(calc(-50% - 15px)); } 
         }
+        
 
         /* NOVO: Animação e estilos para as imagens de fundo de biologia */
         @keyframes piscar-fundo {
@@ -85,7 +86,7 @@
         <div class="w-full md:w-1/3 flex flex-col items-center">
             <img src="carlosok.png" alt="Professor Carlos Moacir" class="w-full max-w-xs object-contain drop-shadow-[0_0_40px_rgba(168,85,247,0.6)] md:mt-10 mb-2">
             <h2 class="text-3xl font-bold text-white uppercase text-center tracking-wide">CARLOS MOACIR</h2>
-            <p class="text-yellow-400 font-bold text-center uppercase tracking-widest text-sm mt-1">(PROFESSOR E MENTOR)</p>
+            <p class="text-yellow-400 font-bold text-center uppercase tracking-widest text-sm mt-1">(PROFESSOR)</p>
         </div>
         <div class="w-full md:w-2/3 flex flex-col items-center justify-center text-center">
             <h2 class="text-xl md:text-2xl font-bold text-purple-400 mb-2 uppercase tracking-widest neon-purple border border-purple-500 rounded-full px-6 py-1">Comunidade</h2>
@@ -94,14 +95,15 @@
                 <span class="transform skew-x-12 block">Ensino Médio</span>
             </div>
             <h3 class="text-2xl md:text-3xl font-bold mb-4">Está com dificuldade em Biologia?</h3>
-            <p class="text-xl text-gray-300 mb-8 max-w-2xl">Notas baixas ou risco de recuperação? Eu te ajudo a entender de verdade e melhorar suas notas de forma simples e direta.</p>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl">Notas baixas ou risco de recuperação? </p>
+            <p class="text-xl text-gray-350 mb-8 max-w-2xl">👉Entenda de verdade e melhore suas notas em Biologia</p>
             <p class="bg-gray-800 p-4 rounded-lg border-l-4 border-green-400 text-left w-full max-w-2xl mb-8">
                 💡 <span class="font-bold text-green-400">Acompanhamento contínuo.</span> Não apenas uma aula isolada de 1 hora.
             </p>
             <a href="#planos" class="bg-green-500 hover:bg-green-400 text-black font-bold text-xl py-4 px-8 rounded-full shadow-[0_0_20px_rgba(34,197,94,0.6)] transition-all duration-300 transform hover:scale-105 w-full max-w-md mb-4 flex justify-center">
                 COMECE HOJE E VEJA RESULTADO NAS PRÓXIMAS PROVAS
             </a>
-            <p class="text-sm text-gray-400">⚠️ Acesso imediato após a inscrição</p>
+            <p class="text-sm text-gray-400">⚠️ Acesso imediato após inscrição</p>
         </div>
     </header>
 
@@ -129,7 +131,8 @@
                     <h4 class="text-2xl md:text-3xl font-bold text-white neon-green">Sua Solução Chegou</h4>
                 </div>
                 <p class="text-gray-100 font-bold text-lg md:text-2xl tracking-wide max-w-4xl mx-auto">
-                    Você não precisa de mais conteúdo. Você precisa de direção e acompanhamento certo.
+                    👉 Você não precisa estudar mais.
+                    👉 Precisa estudar do jeito certo.
                 </p>
             </div>
         </div>
@@ -137,6 +140,7 @@
 
     <section class="py-16 px-4 bg-black bg-opacity-50 relative z-10">
         <div class="max-w-5xl mx-auto text-center">
+            
             <h2 class="text-3xl md:text-4xl font-bold mb-2 text-white">Eu criei um método simples que funciona:</h2>
             <h3 class="text-5xl md:text-6xl font-extrabold text-green-400 mb-12 neon-green tracking-tighter italic uppercase">MÉTODO APROVA BIO</h3>
             
@@ -169,7 +173,7 @@
         <div class="max-w-4xl mx-auto">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">🎯 QUAL PLANO É <span class="text-yellow-400 glow-text">IDEAL PARA VOCÊ?</span></h2>
             
-            <div class="space-y-6">
+            <div class="space-y-12">
                 <div class="bg-gray-900 border-l-8 border-green-500 p-6 md:p-8 rounded-r-2xl shadow-lg flex flex-col md:flex-row md:items-center justify-between gap-6">
                     <div>
                         <h3 class="text-2xl font-bold text-green-400 mb-4">🟢 SE VOCÊ:</h3>
@@ -193,10 +197,11 @@
                             <li>👉 Vai mal nas provas mesmo estudando</li>
                             <li>👉 Precisa de explicação + exercícios + revisão</li>
                         </ul>
-                        <p class="text-blue-400 text-sm font-bold mt-4">💡 É aqui que a maioria dos alunos melhora de verdade</p>
+                        <p class="text-white text-lg font-bold mt-4">💡 É aqui que a maioria dos alunos melhora de verdade</p>
                     </div>
-                    <a href="#planos" class="block cursor-pointer hover:scale-105 transition-transform duration-300 bg-black border border-blue-500 text-blue-400 font-bold px-6 py-4 rounded-xl text-center shadow-[0_0_15px_rgba(59,130,246,0.2)] md:w-1/3">
+                    <a href="#planos" class="block cursor-pointer hover:scale-110 transition-transform duration-300 bg-black border border-blue-500 text-blue-400 text-xl font-bold px-2 py-4 rounded-xl text-center shadow-[0_0_15px_rgba(59,130,246,0.2)] md:w-1/3">
                         👉 Plano Completo é ideal
+                        <span class="block text-sm text-gray-300 font-normal mt-1 uppercase tracking-wide">Vagas limitadas</span>
                     </a>
                 </div>
 
@@ -255,16 +260,16 @@
     <section class="py-16 px-4 bg-black bg-opacity-80 border-t border-gray-800 relative z-10">
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-gray-900 p-8 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] border border-gray-800">
             <div class="w-full md:w-1/3 flex justify-center">
-                <img src="carlosok.png" alt="Professor Carlos Moacir" class="w-48 h-48 object-cover rounded-full border-4 border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.5)]">
+                <img src="carlos3.png" alt="Professor Carlos Moacir" class="w-48 h-48 object-cover rounded-full border-4 border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.5)]">
             </div>
             <div class="w-full md:w-2/3 text-center md:text-left">
                 <h3 class="text-3xl font-bold text-white mb-2">Quem vai te <span class="text-purple-400 neon-purple">guiar</span></h3>
-                <h4 class="text-xl text-yellow-400 font-bold mb-4">Professor e Mentor Carlos Moacir Colodete</h4>
+                <h4 class="text-xl text-yellow-400 font-bold mb-4">Professor Carlos Moacir</h4>
                 <ul class="text-gray-300 space-y-2 mb-6">
-                    <li>✅ Doutorado e Mestrado em Ecologia de Ecossistemas</li>
-                    <li>✅ Autor de diversos livros e artigos científicos</li>
-                    <li>✅ Leciona em escolas de excelência e curso de Medicina</li>
-                    <li>✅ Experiência consolidada em aprovações do ENEM e vestibulares</li>
+                    <li>✅ Explico Biologia de forma simples, para quem tem dificuldade</li>
+                    <li>✅ Aulas ofcadas no que realmente cai na prova</li>
+                    <li>✅ Experiência com ensino médio e vestibulares</li>
+                    <li>✅ Também professor na Faculdade de Medicina</li>
                 </ul>
                 <div class="bg-black p-4 rounded-lg border-l-4 border-purple-500">
                     <p class="text-lg font-bold text-gray-200 italic">👉 “Meu objetivo é fazer você entender de verdade e dominar a Biologia para mudar suas notas e seu futuro.”</p>
@@ -285,7 +290,7 @@
                 </div>
                 <div class="bg-gray-900 p-8 rounded-xl box-neon-green text-center transform md:scale-105">
                     <h3 class="text-3xl font-extrabold text-green-400 mb-4 neon-green">🔥 Aprova Bio</h3>
-                    <p class="text-xl text-white font-bold">👉 Resolve o problema (Para sempre)</p>
+                    <p class="text-xl text-white font-bold">👉 Resolve sua dificuldade em Biologia <span class="text-green-400 neon-green"> DE UMA VEZ!</span></h2></p>
                 </div>
             </div>
 
@@ -357,37 +362,49 @@
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Dicas de estudo</li>
                 </ul>
                 <div class="text-5xl font-extrabold text-white mt-auto mb-6">R$ 39<span class="text-2xl font-bold">,90/mês</span></div>
-                <a href="#" class="bg-green-500 hover:bg-green-400 text-black font-bold py-3 px-6 rounded-full w-full text-center transition-colors">ENTRAR NO BÁSICO</a>
+                <a href="https://wa.me/5528999050564?text=Olá!%20Gostaria%20de%20me%20inscrever%20no%20Plano%20Básico" target="_blank" class="bg-green-500 hover:bg-green-400 text-black font-bold py-3 px-6 rounded-full w-full text-center transition-colors">ENTRAR NO BÁSICO</a>
             </div>
-
-            <div class="bg-gray-900 rounded-xl p-8 box-neon-blue flex flex-col items-center transform md:-translate-y-4 relative">
+            <style>
+                @keyframes piscar-box-azul {
+                    0%, 100% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.6); border-color: #3b82f6; }
+                    50% { box-shadow: 0 0 60px rgba(59, 130, 246, 1); border-color: #93c5fd; }
+                }
+                .animar-box-azul { animation: piscar-box-azul 1.5s infinite; }
+            </style>
+            <div class="bg-gray-1000 rounded-x p-8 box-neon-blue animar-box-azul flex flex-col items-center transform md:-translate-y-2 relative">
                 <div class="absolute -top-4 bg-yellow-400 text-black font-bold px-4 py-1 rounded-full text-sm">MAIS ESCOLHIDO</div>
-                <div class="bg-blue-500 text-white rounded-full p-2 mb-4">⭐</div>
+                <div class="bg-blue-500 text-white rounded-full p-2 mb-5">⭐</div>
                 <h3 class="text-2xl font-bold text-white mb-1">PLANO</h3>
                 <h4 class="text-5xl font-extrabold text-blue-400 mb-6 tracking-tighter glow-text">COMPLETO</h4>
-                <ul class="text-left w-full space-y-3 mb-20 text-gray-200 font-medium">
+                <ul class="text-left w-full space-y-3 mb-18 text-gray-200 font-medium">
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Tudo do Plano Básico</li>
-                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Aulas gravadas plataforma <span class="text-red-500">Hotmart</span></li>
-                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Plano de estudos</li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Aulas gravadas <span class="text-red-500">(Hotmart)</span></li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Conteúdo organizado por assunto</li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Exercícios com resolução</li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Plano de estudo</li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Aula ao vivo semanal</li>
+                     <li class="flex items-start gap-2"><span class="text-green-400">💡</span> Menos de R$2 por dia, equivale a menos de 2 aulas particulares!</li>
+                    
                 </ul>
                 <div class="text-6xl font-extrabold text-white mt-auto mb-6">R$ 59<span class="text-3xl font-bold">,90/mês</span></div>
-                <a href="#hotmart-completo" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-6 rounded-full w-full text-center transition-colors">ENTRAR NO COMPLETO</a>
+                <a href="https://wa.me/5528999050564?text=Olá!%20Gostaria%20de%20me%20inscrever%20no%20Plano%20Completo" target="_blank" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-6 rounded-full w-full text-center transition-colors">ENTRAR NO COMPLETO</a>
             </div>
 
             <div class="bg-gray-900 rounded-xl p-6 box-neon-purple flex flex-col items-center relative">
                 <div class="absolute -top-4 bg-red-600 text-white font-bold px-4 py-1 rounded-full text-sm">VAGAS LIMITADAS!</div>
                 <div class="bg-purple-500 text-white rounded-full p-2 mb-4">👑</div>
                 <h3 class="text-2xl font-bold text-white mb-1">PLANO</h3>
-                <h4 class="text-4xl font-extrabold text-purple-400 mb-6 tracking-tighter glow-text">PREMIUM</h4>
-                <ul class="text-left w-full space-y-3 mb-8 text-gray-300">
+                <h4 class="text-4xl font-extrabold text-purple-400 mb-3 tracking-tighter glow-text">PREMIUM</h4>
+                <ul class="text-left w-full space-y-3 mb-1 text-gray-300">
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Tudo do plano completo</li>
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Acompanhamento direto</li>
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Prioridade nas dúvidas</li>
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Revisões intensivas pré-prova</li>
                     <li class="flex items-start gap-2"><span class="text-green-400">✅</span> Simulados com correção</li>
+                    <li class="flex items-start gap-2"><span class="text-green-400">💡</span> Para quem precisa de resultado mais rápido!</li>
                 </ul>
                 <div class="text-5xl font-extrabold text-white mt-auto mb-6">R$ 97<span class="text-2xl font-bold">,90/mês</span></div>
-                <a href="#hotmart-premium" class="bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-6 rounded-full w-full text-center transition-colors">QUERO O PREMIUM</a>
+                <a href="https://wa.me/5528999050564?text=Olá!%20Gostaria%20de%20me%20inscrever%20no%20Plano%20Premium" target="_blank" class="bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-6 rounded-full w-full text-center transition-colors">QUERO O PREMIUM</a>
             </div>
 
         </div>
@@ -451,9 +468,9 @@
     </section>
 
     <footer class="py-12 text-center px-4 border-t border-gray-800 relative z-10">
-        <h3 class="text-2xl font-bold mb-2">Você não precisa ser "bom em Biologia"</h3>
-        <p class="text-gray-400 mb-8">Você só precisa do método certo. Não espere ficar de recuperação.</p>
-        <a href="#planos" class="inline-block bg-green-500 hover:bg-green-400 text-black font-bold text-lg py-4 px-10 rounded-full shadow-[0_0_15px_rgba(34,197,94,0.5)] transition-all mb-10">
+        <h3 class="text-2xl font-bold mb-2">SE VOCÊ NÃO ESTÁ ENTENENDO, NÃO É FALTA DE ESFORÇO</h3>
+        <p <span class="text-2xl font-bold mb-2" neon-purple">É FALTA DO MÉTODO CERTO!</span> </p>
+        <a href="#planos" class="inline-block bg-green-500 hover:bg-green-400 text-black font-bold text-lg py-3 px-10 rounded-full shadow-[0_0_15px_rgba(34,197,94,0.5)] transition-all mb-15">
             COMECE HOJE E MUDE SEUS RESULTADOS
         </a>
         
